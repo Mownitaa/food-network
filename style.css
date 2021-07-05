@@ -1,5 +1,92 @@
 body{
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;  
     margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:white;
+    min-height: 200vh; */
+} 
+nav p{
+
+}
+.nav{
+   text-align: center;
+   background-color: rgb(247, 110, 60);
+   padding: 1% 10%;
+   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
+   font-weight: 1000;
+  font-size: larger;
+  color: rgb(73, 69, 69);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 80px;
+}
+.color{
+    color: orange;
+}
+
+.banner{
+
+}
+
+.click{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(orange,tomato);
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+}
+.me{
+    background-image: url("images/shapes/7.jpg");
+    /* background-repeat: no-repeat; */
+    padding: 20px 10px;
+}
+.box{
+    margin: 20px 70px;
+    padding: 40px 5px;
+    box-shadow: 2px 2px 25px rgba(128, 128, 128, 0.726);
+    border-radius: 29px;
+}
+.optional h1{
+    font-size: xx-large;
+    font-weight: 6%;
+    font-size: 40px;
+    margin-bottom: -13px;
+}
+.optional{
+    margin-right: 10%;
+    margin-left: 9%;
+
+}
+.recipie{
+     text-align: center; 
+      margin: 1% 20%;
+}
+.ash{
+    color: gray;
+}
+.flex{
+    display:flex;
+}
+footer{
+    text-align: center;
+    background-color:black ;
+    margin: 50px auto;
+    position:absolute;
+    width: 100%;
+    /* width: 100%;
+    height: 100%; */
+}
+footer p{
+    color: rgb(185, 177, 177);
+    font-size: x-small;
+    font-weight: 200;
     
-}  
+}
+
