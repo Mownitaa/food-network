@@ -3,12 +3,9 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    /* background:white;
-    min-height: 200vh; */
+    
 } 
-nav p{
 
-}
 .nav{
    text-align: center;
    background-color: rgb(247, 110, 60);
@@ -23,30 +20,58 @@ nav p{
     color: white;
     padding-left: 80px;
 }
-.color{
-    color: orange;
+.banner{
+    width:100%;
 }
 
-.banner{
-
+.flex{
+    display:flex;
+}
+h3{
+    color: rgb(116, 110, 110);
+ }
+ h2 h1{
+     color:gray;
+     font-weight: bolder;
+     font-size: xx-large;
+ }
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    margin-top:50px ;
+    font-size: 26px;
+}
+.half-width img{
+    width: 87%;
+}
+.color{
+    color: orange;
+    
 }
 
 .click{
     text-decoration: none;
     color: #fff;
     background-image: linear-gradient(orange,tomato);
-}
-.half-width{
-    width: 50%;
-}
-.half-width img{
-    width: 70%;
+    padding: 10px 30px;
+    border-radius: 30px;
 }
 .me{
-    background-image: url("images/shapes/7.jpg");
-    /* background-repeat: no-repeat; */
-    padding: 20px 10px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    /* padding: 90px 20px; 
+   
+     width: 100%; */
 }
+.me img{
+    width: 100%;
+}
+.recipie{
+    text-align: center; 
+     margin: 1% 20%;
+}
+
+
 .box{
     margin: 20px 70px;
     padding: 40px 5px;
@@ -64,16 +89,7 @@ nav p{
     margin-left: 9%;
 
 }
-.recipie{
-     text-align: center; 
-      margin: 1% 20%;
-}
-.ash{
-    color: gray;
-}
-.flex{
-    display:flex;
-}
+
 footer{
     text-align: center;
     background-color:black ;
