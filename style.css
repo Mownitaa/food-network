@@ -1,5 +1,7 @@
 body{
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -33,12 +35,13 @@ h1{
     font-weight: bold;
 }
 h2 {
-    color:gray;
+    color:rgb(77, 74, 74);
     font-weight: bolder;
     font-size: xx-large;
 }
 h3{
     color: rgb(116, 110, 110);
+    padding-bottom: 35px;
  }
 
  p{
@@ -59,23 +62,27 @@ h3{
 .color{
     color: orange;
 }
+.another-color{
+    color: rgb(80, 79, 79);
+}
 
 .click{
     text-decoration: none;
     color: #fff;
-    background-image: linear-gradient(orange,tomato);
-    padding: 13px 30px;
-    border-radius: 30px;
+    background-image: linear-gradient(rgb(230, 124, 25),tomato);
+    padding: 16px 30px;
+     border-radius: 25px;
     box-shadow: 1px 1px 18px 2px orange;
 }
 .myself{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    height: 550px;   
 }
 .myself img{
     width: 200%;
-    padding: 0px 80px;
+    padding: 0px 90px;
+    height: 550px;   
+
 }
 #about{
     text-align: left;
@@ -83,12 +90,12 @@ h3{
 }
 .recipie{
     text-align: center; 
-     margin: 1% 20%;
+     margin: 5% 20% 0% 20%;
 }
-.display{
+.food-display{
      margin:0px 20px 120px 89px;
 }
-.display h2{
+.food-display h2{
     color: black;
 }
 .food-items{
@@ -101,7 +108,7 @@ h3{
 .food-items img{
     width: 100%;
 }
-.box{
+.optional-box{
     margin: 20px 70px;
     padding: 40px 5px;
     box-shadow: 2px 2px 25px rgba(128, 128, 128, 0.726);
@@ -138,7 +145,7 @@ h3{
 }
 footer{
     text-align: center;
-    background-color:rgb(25, 20, 36) ;
+    background-color:rgb(7, 1, 17) ;
     margin: 50px auto;
     position:absolute;
     width: 100%;
