@@ -40,6 +40,7 @@ h2 {
     color:rgb(77, 74, 74);
     font-weight: bolder;
     font-size: xx-large;
+    padding-bottom: 25px;
 }
 h3{
     color: rgb(116, 110, 110);
@@ -49,6 +50,7 @@ h3{
  p{
     font-size:100%;
     padding-bottom: 30px;
+    
 }
 
 .flex{
@@ -71,10 +73,10 @@ h3{
 .click{
     text-decoration: none;
     color: #fff;
-    background-image: linear-gradient(rgb(230, 124, 25),tomato);
+    background-image: linear-gradient(rgb(248, 174, 105),rgb(228, 78, 52));
     padding: 16px 30px;
      border-radius: 25px;
-    box-shadow: 1px 1px 18px 2px orange;
+    box-shadow: 1px 1px 18px 2px rgb(250, 149, 166);
 }
 .myself{
     background-image: url(images/shapes/7.png);
@@ -88,7 +90,7 @@ h3{
 }
 #about{
     text-align: left;
-    padding: 0% 10% 4% 35%;
+    padding: 0% 10% 7% 35%;
 }
 .recipie{
     text-align: center; 
