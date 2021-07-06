@@ -7,6 +7,7 @@ body{
 } 
 
 .nav{
+   
    text-align: center;
    background-color: rgb(247, 110, 60);
    padding: 1% 10%;
@@ -49,9 +50,23 @@ h3{
     margin-top:50px ;
     /* font-size: 26px; */
 }
-.half-width img{
-    width: 90%;
-    padding-bottom: 20px;
+.display{
+    margin:0px 20px 120px 89px;
+    /* align-items: center; */
+    justify-content: center;
+}
+.food-items{
+    width: 33.33%;
+    box-shadow: 2px 4px 38px 6px rgba(128, 128, 128, 0.575);
+    border-radius: 25px;
+    padding:1.5% 1.7% 1% 1.7%;
+    /* margin:0px 70px 120px 70px; */
+    margin-right: 90px;
+}
+.food-items img{
+    width: 100%;
+    /* padding-right: -30px; */
+    /* padding-bottom: 5px; */
 }
 .color{
     color: orange;
@@ -103,19 +118,8 @@ p{
     box-shadow: 2px 2px 25px rgba(128, 128, 128, 0.726);
     border-radius: 29px;
 }
-#first-food-pic{
-    float: left;
-}
-#second-food-pic{
-    margin: 0 auto;
-}
-#third-food-pic{
-    float: right;
-}
-.food-items{
-  width:33.33%
 
-}
+
 .optional h1{
     font-size: xx-large;
     font-weight: 6%;
@@ -130,16 +134,17 @@ p{
 
 footer{
     text-align: center;
-    background-color:black ;
+    background-color:rgb(25, 20, 36) ;
     margin: 50px auto;
     position:absolute;
     width: 100%;
+    padding-bottom: 90px;
     /* width: 100%;
     height: 100%; */
 }
-footer p{
+footer h4{
     color: rgb(185, 177, 177);
-    font-size: x-small;
+    /* font-size: x-small; */
     font-weight: 200;
     
 }
