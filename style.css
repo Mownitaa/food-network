@@ -21,12 +21,16 @@ body{
     padding-left: 80px;
 }
 .banner{
-    width:100%;
+    /* width:100%; */
 }
 
 .flex{
     display:flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.6s; */
 }
+
 h3{
     color: rgb(116, 110, 110);
  }
@@ -35,14 +39,19 @@ h3{
      font-weight: bolder;
      font-size: xx-large;
  }
+ h1{
+     font-size: 45px;
+     font-weight: bold;
+ }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
     margin-top:50px ;
-    font-size: 26px;
+    /* font-size: 26px; */
 }
 .half-width img{
-    width: 87%;
+    width: 90%;
+    padding-bottom: 20px;
 }
 .color{
     color: orange;
@@ -53,21 +62,34 @@ h3{
     text-decoration: none;
     color: #fff;
     background-image: linear-gradient(orange,tomato);
-    padding: 10px 30px;
+    padding: 13px 30px;
     border-radius: 30px;
+    box-shadow: 1px 1px 18px 2px orange;
 }
 p{
-    font-size:80%;
+    font-size:100%;
+    padding-bottom: 30px;
+}
+
+#about{
+    text-align: left;
+    padding: 0% 10% 4% 35%;
+    /* margin: 0px auto 80px auto; */
 }
 .me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    /* padding: 90px 20px; 
+    /* margin: 0px auto 20px auto; */
+    /* padding:50px 70px; */
+    height: 550px;
+    /* padding: 90px 20px;  */
    
-     width: 100%; */
 }
 .me img{
-    width: 100%;
+    width: 200%;
+    padding: 0px 80px;
+    /* padding-bottom: 0px;
+    margin-bottom: 0px; */
 }
 .recipie{
     text-align: center; 
